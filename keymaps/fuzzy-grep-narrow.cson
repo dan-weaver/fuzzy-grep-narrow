@@ -1,0 +1,2 @@
+'body.platform-darwin atom-workspace .atom-fuzzy-grep atom-text-editor':
+  'cmd-n': 'fuzzy-grep-narrow:narrow-grep'

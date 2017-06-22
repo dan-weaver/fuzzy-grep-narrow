@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle fuzzy-grep-narrow",
+        "command": "fuzzy-grep-narrow:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "fuzzy-grep-narrow",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "fuzzy-grep-narrow:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
